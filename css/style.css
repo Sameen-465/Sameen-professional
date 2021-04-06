@@ -1,0 +1,80 @@
+html,body {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.inner-container {
+    width: 95%;
+    margin: 0 auto;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    /* border: 1px solid skyblue; */
+}
+nav{
+    text-align: center;
+    
+}
+nav a {
+    font-size: 20px;
+    margin-right: 15px;
+
+}
+nav a:hover{
+    color: white;
+    transition: 1s;
+    letter-spacing: 5px;
+    background-color:blue;
+    padding: 20px;
+}
+.social-text-gray {
+    text-align: right;
+}
+.social-text-gray i:hover {
+    color: blue;
+}
+/* @media only screen and (max-width:750px){
+.header{
+    background-color: black;
+}
+} */
+
+main .site-title{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/nature-3276464_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+}
+main .site-title .site-background{
+    padding-top: 150px;
+    text-align: center;
+    color:white
+}
+main .site-title h1,h3 {
+    margin:10px;
+}
+main .site-title h1 {
+    font-size: 35px;
+}
+main .site-title h3 {
+    font-size: 25px;
+}
+button.btn {
+    border: none;
+    border-radius: 32px;
+    padding: 16px 48px;
+    font-size: 16px;
+    cursor: pointer;
+}
+main .site-title .btn {
+margin: 15px;
+background-color:skyblue;
+color: white;
+}
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+}
